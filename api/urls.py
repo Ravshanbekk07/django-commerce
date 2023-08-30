@@ -4,7 +4,7 @@ from .views import get_all,create
 
 urlpatterns=[
     path('',get_all),
-    path('create/',create),
+    path('create',create),
 ]
 
 
